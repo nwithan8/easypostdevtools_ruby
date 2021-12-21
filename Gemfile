@@ -5,6 +5,9 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in easypostdevtools.gemspec
 gemspec
 
-gem "minitest", "~> 5.0"
+gem 'dotenv'
 
-gem "rubocop", "~> 1.21"
+gem 'easypost'
+
+gem 'sorbet', :group => :development
+gem 'sorbet-runtime'
